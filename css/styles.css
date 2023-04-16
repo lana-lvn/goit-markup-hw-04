@@ -196,7 +196,19 @@ img {
 /* Hero Section */
 
 .hero-section {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--color-navy-blue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -272,6 +284,17 @@ img {
 
 .features-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background-color: var(--color-cloud);
+  margin-bottom: 8px;
 }
 
 /* Section 2 - What are we doing */
