@@ -176,6 +176,14 @@ img {
   background-color: var(--color-navy-blue);
   padding: 100px 0;
 }
+.footer-container {
+  display: flex;
+}
+
+.logo-container {
+  margin-right: 120px;
+}
+
 .text-foot {
   font-weight: 400;
   font-size: 16px;
@@ -187,6 +195,45 @@ img {
   width: 264px;
 }
 
+/* Social media */
+
+.media-container {
+}
+.media-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--color-white);
+
+  margin-bottom: 16px;
+}
+.media-list {
+  display: flex;
+  gap: 16px;
+}
+
+.media-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: var(--color-iris);
+
+  border-radius: 50%;
+}
+.media-icon {
+  fill: var(--color-cloud);
+}
+
+.media-link:hover,
+.media-link:focus {
+  background-color: var(--color-green);
+}
 /**
   |============================
   | STUDIO STYLES
@@ -377,6 +424,10 @@ img {
   background-color: var(--color-iris);
 }
 
+.socials-icon {
+  fill: var(--color-cloud);
+}
+
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--color-ocean);
@@ -407,9 +458,6 @@ img {
   border-radius: 4px;
 
   fill: var(--color-light-slate);
-}
-
-.customers-icon {
 }
 
 .customer-link:hover,
